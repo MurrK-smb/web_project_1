@@ -13,7 +13,6 @@
 
 .header {
   position: relative;
-  border-color: black;
   background-color: #F2F2F2;
   display: flex;
   height: 100vh;
@@ -78,7 +77,6 @@
 }
 
 .description {
-  border-color: black;
   display: flex;
   justify-content: center;
 }
@@ -123,8 +121,6 @@
 }
 
 .digits {
-  border-color: black;
-  padding: 0;
   margin: 100px auto 100px auto;
   width: 1100px;
 }
@@ -195,7 +191,6 @@
 
 .feynman {
   position: relative;
-  border-color: black;
   background-color: #F2F2F2;
   height: 790px;
   padding: 0;
@@ -245,7 +240,6 @@
 }
 
 .kaufman {
-  border-color: white;
   color: white;
   background-color: #1F1F1F;
   position: relative;
@@ -319,21 +313,20 @@
 }
 
 .footer {
+  display: flex;
   background-color: #1F1F1F;
   position: relative;
   color: white;
   border-color: white;
   min-height: 350px;
-  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
-  margin: 0 auto 0 auto;
+  margin: 60px auto 40px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
-  height: 200px;
 }
 
 .footer__columns__content_copyright {
@@ -373,6 +366,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__column-link {
@@ -381,6 +376,12 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+
+.footer__column-link__bottom {
+  margin-bottom: 0;
 }
 
 .footer__social-icons {
